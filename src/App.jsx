@@ -11,6 +11,7 @@ function App() {
   return (
     <div>
       <div className="bg-dark text-white py-5 text-center">
+        <h1>Procurar Perfil Github</h1>
         {userName.length > 0 && <Perfil userName={userName} />}
         <div className="d-flex justify-content-center mt-3">
           <input
